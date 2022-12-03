@@ -1,0 +1,38 @@
+/* --------------- global --------------- */
+:root {
+    scroll-behavior: smooth;
+}
+
+*,
+* button:focus {
+    outline: 0;
+}
+
+html::-webkit-scrollbar {
+    height: 20px;
+    width: 10px;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #999;
+    -webkit-border-radius: 0;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar-corner {
+    background: #999;
+    border-radius: 10px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    font-size: 0.9em;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #F5F6F8;
+    font-weight: 400;
+    line-height: 1.5;
+}
